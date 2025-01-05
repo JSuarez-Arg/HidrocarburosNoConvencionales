@@ -65,11 +65,11 @@ Para instalar las dependencias del proyecto, asegúrate de tener `pip` instalado
 ## 💡 Contribuir
 Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 
-1. Haz un fork del repositorio.
-2. Crea una nueva rama (git checkout -b feature/nueva-caracteristica).
-3. Realiza los cambios y haz commit (git commit -am 'Agregada nueva característica').
-4. Haz push a tu rama (git push origin feature/nueva-caracteristica).
-5. Crea un pull request.
+* Haz un fork del repositorio.
+* Crea una nueva rama (git checkout -b feature/nueva-caracteristica).
+* Realiza los cambios y haz commit (git commit -am 'Agregada nueva característica').
+* Haz push a tu rama (git push origin feature/nueva-caracteristica).
+* Crea un pull request.
 
 ## 📜 Licencia
 Este proyecto está licenciado bajo la [Licencia MIT](./LICENSE).
