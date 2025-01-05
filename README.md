@@ -2,7 +2,7 @@
 ![HidrocarburosArg](docs/images/hidrocarburosarggrey.png)
 
 # Análisis de Producción de Pozos de Gas y Petróleo No Convencional
-Este proyecto explora y analiza la producción de gas y petróleo en pozos no convencionales de Argentina, basándose en datos proporcionados por la Secretaría de Gobierno de Energía. Estos datos ofrecen un detallado registro mensual de producción, incluyendo petróleo (en m³), gas (en miles de m³), y agua (en m³), entre otras variables relevantes.
+Este proyecto explora y analiza la **producción de gas y petróleo en pozos no convencionales de Argentina**, basándose en datos proporcionados por la [Secretaría de Gobierno de Energía](http://datos.energia.gob.ar/dataset/produccion-de-petroleo-y-gas-por-pozo). Estos datos ofrecen un detallado registro mensual de producción, incluyendo petróleo (en m³), gas (en miles de m³), y agua (en m³), entre otras variables relevantes.
 
 ## 🎯 Objetivo del Proyecto
 El objetivo principal es aplicar técnicas avanzadas de Machine Learning y análisis de datos para entender mejor los patrones de producción y desarrollar herramientas predictivas que contribuyan a la toma de decisiones en la industria de hidrocarburos.
