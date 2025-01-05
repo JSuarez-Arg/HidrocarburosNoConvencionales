@@ -1,8 +1,39 @@
 ![Banner](docs/images/JS_banner.png)
 
-# Hidrocarburos No Convencionales
+# Análisis de Producción de Gas y Petróleo No Convencional
+Este proyecto explora y analiza la producción de gas y petróleo en pozos no convencionales de Argentina, basándose en datos proporcionados por la Secretaría de Gobierno de Energía. Estos datos ofrecen un detallado registro mensual de producción, incluyendo petróleo (en m³), gas (en miles de m³), y agua (en m³), entre otras variables relevantes.
 
-Este proyecto está diseñado para analizar y predecir la producción de pozos de gas y petróleo no convencional. Utiliza técnicas avanzadas de Machine Learning y Big Data para optimizar los procesos y generar predicciones sobre la producción de hidrocarburos.
+## Objetivo del Proyecto
+El objetivo principal es aplicar técnicas avanzadas de Machine Learning y análisis de datos para entender mejor los patrones de producción y desarrollar herramientas predictivas que contribuyan a la toma de decisiones en la industria de hidrocarburos.
+
+## Preguntas Clave a Resolver:
+* ¿Qué factores impactan más en la producción de gas y petróleo no convencional?
+* ¿Es posible predecir la producción futura de un pozo basado en su historial y características?
+* ¿Se pueden identificar pozos con alto potencial de producción utilizando modelos de clasificación?
+* ¿Qué insights podemos obtener sobre la evolución temporal de los recursos y su relación con factores geográficos y técnicos?
+## Alcances del Análisis
+Este análisis se enfoca en:
+
+* **Regresión:** Predecir la cantidad de petróleo, gas o agua producida en un periodo específico.
+* **Clasificación:** Identificar y categorizar pozos según su rendimiento o características específicas.
+* **Segmentación:** Agrupar pozos basados en patrones comunes, como rendimiento o ubicación geográfica.
+* **Visualización de Datos:** Crear gráficos avanzados para comprender tendencias y relaciones en los datos.
+## Estructura de Datos
+Los datos provienen de un CSV delimitado por comas codificado en UTF-8, actualizado por última vez el 23 de Mayo de 2024. Entre las características más relevantes del dataset se incluyen:
+
+* **Identificación del Pozo:** Código único, sigla, y nombre asignados.
+* **Ubicación Geográfica:** Coordenadas (latitud y longitud), provincia, cuenca, y yacimiento.
+* **Producción Mensual:** Volúmenes de petróleo, gas, agua, e inyecciones.
+* **Características Técnicas:** Profundidad, tipo de reservorio, y vida útil estimada.
+* **Temporalidad:** Fechas de perforación, inicio y fin de producción, y actualizaciones mensuales.
+## Enfoque Técnico
+El análisis utiliza herramientas de ciencia de datos y Machine Learning para:
+
+* Limpiar y explorar datos para detectar patrones o anomalías.
+* Diseñar modelos de predicción y clasificación usando algoritmos como regresión lineal, árboles de decisión, redes neuronales y otros métodos avanzados.
+* Evaluar la precisión y utilidad de los modelos mediante métricas estándar.
+* Visualizar resultados para facilitar la interpretación por parte de stakeholders.
+
 
 ## Estructura del Proyecto
 
@@ -24,10 +55,12 @@ Este proyecto sigue la estructura recomendada por [Cookiecutter Data Science](ht
 
 Para instalar las dependencias del proyecto, asegúrate de tener `pip` instalado y luego ejecuta el siguiente comando:
 
+
 ```bash
 pip install -r requirements.txt
 
-## Contribuciones
+
+## Contribuir
 Si deseas contribuir a este proyecto, por favor sigue estos pasos:
 
 1. Haz un fork del repositorio.
