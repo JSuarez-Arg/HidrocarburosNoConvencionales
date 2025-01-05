@@ -1,3 +1,5 @@
+![Banner](docs/images/JS_banner.png)
+
 # Hidrocarburos No Convencionales
 
 Este proyecto está diseñado para analizar y predecir la producción de pozos de gas y petróleo no convencional. Utiliza técnicas avanzadas de Machine Learning y Big Data para optimizar los procesos y generar predicciones sobre la producción de hidrocarburos.
