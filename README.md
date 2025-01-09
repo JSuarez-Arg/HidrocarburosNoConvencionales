@@ -12,6 +12,11 @@ El objetivo principal es aplicar técnicas avanzadas de Machine Learning y anál
 * ¿Es posible predecir la producción futura de un pozo basado en su historial y características?
 * ¿Se pueden identificar pozos con alto potencial de producción utilizando modelos de clasificación?
 * ¿Qué insights podemos obtener sobre la evolución temporal de los recursos y su relación con factores geográficos y técnicos?
+* ¿Cuáles son los pozos más productivos? ¿Qué tienen en común?
+* ¿Qué relación existe entre la producción y las variables de inyección (`iny_agua`, `iny_gas`, `iny_co2`)?
+* ¿Cómo varía la producción según la geografía (provincia, cuenca)?
+* ¿Existen outliers en las variables de producción?
+
 
 ## 📊 Alcances del Análisis
 Este análisis se enfoca en:
